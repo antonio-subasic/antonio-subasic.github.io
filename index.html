@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Antonio Subašić</title>
         <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Antonio Subašić</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
+        <link rel="icon" href="./assets/tabicon.png" />
     </head>
+
     <body>
-        <h1 data-value="ANTONIO SUBASIC">ANTONIO SUBASIC</h1>
-        <script src="script.js"></script>
+        <main>
+            <div id="profile-pic-container">
+                <img
+                    src="https://avatars.githubusercontent.com/u/96651154"
+                    alt="Antonio Subašić's profile picture"
+                />
+            </div>
+            <div id="profile-text-container">
+                <p>Hello, I'm</p>
+                <h1>Antonio Subašić</h1>
+                <p>computer science student</p>
+                <p>
+                    at
+                    <a href="https://www.htl-leonding.at" target="_blank"
+                        >HTBLA Leonding</a
+                    >
+                </p>
+                <div id="socials-container">
+                    <img
+                        src="./assets/github.png"
+                        alt="My Github profile"
+                        onclick="location.href='https://github.com/antonio-subasic'"
+                    />
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright &#169; 2023 Antonio Subašić. All Rights Reserved.</p>
+        </footer>
     </body>
 </html>
